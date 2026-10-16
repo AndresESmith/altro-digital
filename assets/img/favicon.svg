@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 32.02 69.96 69.96">
+<!-- Stand-in favicon: the A-in-circle monogram. Replace with the real one (keep the file name). -->
+<style>circle{fill:#00334e}@media (prefers-color-scheme:dark){circle{fill:#ffffff}}</style>
+<defs><mask id="m" maskUnits="userSpaceOnUse"><rect x="-1" y="31.02" width="71.96" height="71.96" fill="#fff"/><path d="M14.21 86.22L30.39 45.30L39.60 45.30L55.75 86.22L45.86 86.22L42.89 78.01L27.14 78.01L24.13 86.22L14.21 86.22ZM34.98 56.46L30.24 69.88L39.82 69.88L35.07 56.46L34.98 56.46Z" fill="#000"/></mask></defs>
+<circle cx="34.98" cy="67" r="34.98" mask="url(#m)"/>
+</svg>

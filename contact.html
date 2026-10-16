@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact · Altro Digital</title>
+<meta name="description" content="Ask for a free homepage preview. We reply by the next business day.">
+<!-- Keeps search engines out while the site has placeholders. Delete at launch (README: go-live checklist). -->
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#00334e">
+<!-- At launch, make these two links full URLs on your domain (https://...). -->
+<link rel="alternate" hreflang="en" href="contact.html">
+<link rel="alternate" hreflang="es" href="es/contacto.html">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/league-spartan-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/styles.css">
+<script>document.documentElement.classList.add('js')</script>
+<script src="assets/js/site.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ===== HEADER: the same on every page ===== -->
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo" href="index.html"><img src="assets/img/logo.svg" alt="Altro Digital" width="300" height="136"></a>
+    <nav class="site-nav" id="site-nav" aria-label="Main">
+      <ul>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="how-it-works.html">How it works</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+          <li class="nav-cta"><a href="contact.html">Free preview</a></li>
+      </ul>
+    </nav>
+    <div class="header-tools">
+      <div class="lang-switch" role="group" aria-label="Language"><span aria-current="true" lang="en">EN</span><a href="es/contacto.html" hreflang="es" lang="es" title="Español">ES</a></div>
+      <a class="btn btn-primary btn-sm" href="contact.html">Free preview</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span class="visually-hidden">Menu</span><svg class="i-open" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 9h16M4 15h16"/></svg><svg class="i-close" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    </div>
+  </div>
+</header>
+<!-- ===== /HEADER ===== -->
+
+<main id="main">
+  <section class="page-hero">
+    <svg class="globe-deco" viewBox="0 0 400 400" aria-hidden="true"><g class="globe-lines"><circle cx="200" cy="200" r="196"/><path d="M4 200h392M18 130h364M18 270h364M64 64h272M64 336h272M200 4v392"/><ellipse cx="200" cy="200" rx="64" ry="196"/><ellipse cx="200" cy="200" rx="130" ry="196"/></g></svg>
+    <div class="wrap">
+      <p class="eyebrow">Contact</p>
+      <h1>Get your free homepage preview.</h1>
+      <p class="lede">Tell us about your business. We'll reply by the next business day to set up a short call.</p>
+    </div>
+  </section>
+
+  <section class="section" aria-label="Contact form and details">
+    <div class="wrap contact-grid">
+      <!-- THE FORM: only name, business, phone, and message (handbook ch05).
+           It isn't connected yet. Before it goes live:
+           1. publish the privacy policy (privacy.html),
+           2. connect the form on your host (README: "Connect the form"),
+           3. delete data-not-connected and the .form-status box. -->
+      <form class="form" data-not-connected>
+        <div class="form-row">
+          <div class="field">
+            <label for="f-name">Your name</label>
+            <input id="f-name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="f-business">Business name</label>
+            <input id="f-business" name="business" type="text" autocomplete="organization" required>
+          </div>
+        </div>
+        <div class="field">
+          <label for="f-phone">Phone</label>
+          <input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required>
+        </div>
+        <div class="field">
+          <label for="f-message">Message</label>
+          <p class="hint" id="f-message-hint">What do you do, and where? Have a website already? Paste the link.</p>
+          <textarea id="f-message" name="message" aria-describedby="f-message-hint"></textarea>
+        </div>
+        <p class="form-status" role="status" tabindex="-1" hidden>This form isn't connected yet. For now, please email or call us.</p>
+        <div class="form-foot">
+          <button class="btn btn-primary" type="submit">Send</button>
+          <p>We only use this to reply to you. <a href="privacy.html">Privacy policy</a></p>
+        </div>
+      </form>
+
+      <aside class="contact-card on-navy" aria-labelledby="direct-h">
+        <h2 id="direct-h">Or reach us directly</h2>
+        <dl>
+          <div><dt>Email</dt><dd><span class="ph">[firstname]@altrodigital.com</span></dd></div>
+          <div><dt>Phone</dt><dd><span class="ph">[phone number]</span></dd></div>
+          <div><dt>Mail</dt><dd>Altro Digital<br>PO Box <span class="ph">[number]</span><br><span class="ph">[City]</span>, VA <span class="ph">[ZIP]</span></dd></div>
+          <div><dt>Replies</dt><dd>By the next business day</dd></div>
+        </dl>
+        <p class="es-line" lang="es">¿Prefiere español? Escríbanos o llame: le respondemos en español.</p>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<!-- ===== FOOTER: the same on every page ===== -->
+<footer class="site-footer">
+  <svg class="footer-globe" viewBox="0 0 400 400" aria-hidden="true"><g class="globe-lines"><circle cx="200" cy="200" r="196"/><path d="M4 200h392M18 130h364M18 270h364M64 64h272M64 336h272M200 4v392"/><ellipse cx="200" cy="200" rx="64" ry="196"/><ellipse cx="200" cy="200" rx="130" ry="196"/></g></svg>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="assets/img/logo-white.svg" alt="Altro Digital" width="300" height="136">
+        <p>Websites for service businesses, in English and Spanish. Every client sees a free preview before paying anything.</p>
+      </div>
+      <div>
+        <h2>Pages</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="how-it-works.html">How it works</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Contact</h2>
+        <address>
+          <span class="ph">[firstname]@altrodigital.com</span>
+          <span class="ph">[phone number]</span>
+          <span>Altro Digital · PO Box <span class="ph">[number]</span>, <span class="ph">[City]</span>, VA <span class="ph">[ZIP]</span></span>
+        </address>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Altro Digital · Based in Virginia, working across the US</span>
+      <a href="privacy.html">Privacy</a>
+    </div>
+  </div>
+</footer>
+<!-- ===== /FOOTER ===== -->
+</body>
+</html>
